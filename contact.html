@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css">
+    <script src="burger.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar is-warning" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="#">
+                    <img src="img/iconoNav.png" alt="placeholder icono">
+                </a>
+
+                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
+                    data-target="navbarBasicExample">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+
+            <div id="navbarBasicExample" class="navbar-menu">
+                <div class="navbar-start">
+                    <a href="index.html" class="navbar-item">
+                        Inicio
+                    </a>
+
+
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">
+                            Redes
+                        </a>
+
+                        <div class="navbar-dropdown">
+                            <a class="navbar-item" href="https://www.facebook.com/ricardoernesto.cariasflores/" target="_blank">
+                                Facebook
+                            </a>
+                            <a class="navbar-item" href="https://www.instagram.com/ricardocarias_/" target="_blank">
+                                Instagram
+                            </a>
+                            <a class="navbar-item" href="https://www.youtube.com/channel/UCDO-hg8M3V77PYNCsCUrDwA" target="_blank">
+                                Youtube
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container mt-6">
+            <div class="field">
+                <label class="label">Nombre</label>
+                <div class="control">
+                    <input class="input" type="text" placeholder="Text input">
+                </div>
+            </div>
+    
+            <div class="field">
+                <label class="label">Empresa</label>
+                <div class="control has-icons-left has-icons-right">
+                    <input class="input" type="text" placeholder="Nombre de tu empresa" value="">
+                    <span class="icon is-small is-left">
+                        <i class="fas fa-user"></i>
+                    </span>
+                    <span class="icon is-small is-right">
+                        <i class="fas fa-check"></i>
+                    </span>
+                </div>
+                
+            </div>
+    
+            <div class="field">
+                <label class="label">Email</label>
+                <div class="control has-icons-left has-icons-right">
+                    <input class="input" type="email" placeholder="Email propio o de empresa" value="">
+                    <span class="icon is-small is-left">
+                        <i class="fas fa-envelope"></i>
+                    </span>
+                    <span class="icon is-small is-right">
+                        <i class="fas fa-exclamation-triangle"></i>
+                    </span>
+                </div>
+                
+            </div>
+    
+            <div class="field">
+                <label class="label">Motivo</label>
+                <div class="control">
+                    <div class="select">
+                        <select>
+                            <option>Startup</option>
+                            <option>Empresa Grande</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="field">
+                <label class="label">Detalles</label>
+                <div class="control">
+                    <textarea class="textarea" placeholder="Especifica los detalles del contacto"></textarea>
+                </div>
+            </div>
+    
+            <div class="field">
+                <div class="control">
+                    <label class="checkbox">
+                        <input type="checkbox">
+                        Acepto los <a href="#">terminos y condiciones</a>
+                    </label>
+                </div>
+            </div>
+    
+            <div class="field">
+                <div class="control">
+                    <label class="radio">
+                        <input type="radio" name="question">
+                        Yes
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="question">
+                        No
+                    </label>
+                </div>
+            </div>
+    
+            <div class="field is-grouped">
+                <div class="control">
+                    <button class="button is-link">Submit</button>
+                </div>
+                <div class="control">
+                    <button class="button is-link is-light">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer mt-6">
+        <div class="content has-text-centered">
+            <p>
+                <strong>100mph</strong> por <a href="#">Ricardo Carias</a>.
+                practica del uso de 
+                <a href="https://hackr.io/blog/best-css-frameworks" target="_blank">CSS FRAMEWORKS</a>. 4 de junio del 2024
+                <a href="https://unicah.edu/" target="_blank">UNICAH NUESTRA REINA DE LA PAZ</a>.
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>
